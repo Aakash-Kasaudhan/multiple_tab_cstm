@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: sans-serif;
+  /* background-color: bisque; */
+}
+.main_div {
+  height: 100vh;
+  width: 100vw;
+}
+.btn {
+  padding: 20px 15px;
+  background-color: darkgray;
+  color: #fff;
+  font-size: large;
+  font-weight: 800;
+  padding: 10px 20px;
+}
+.btn_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4%;
+}
